@@ -2,7 +2,7 @@ name: MLflow CI/CD Pipeline
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   train-and-deploy:
